@@ -1,0 +1,9 @@
+Bài 2: Ngăn chặn rò rỉ dữ liệu do chia sẻ sai quyền
+Phần 1: Phân tích
+An mắc lỗi bảo mật vì để chế độ Anyone with the link và cấp quyền Editor. Ai có đường link cũng có thể truy cập, sửa hoặc xóa dữ liệu. Khi link bị phát tán lên mạng xã hội, thông tin khách hàng có nguy cơ bị lộ và tài liệu bị phá hoại
+
+
+Phần 2: Cách khắc phục
+- Mức quyền: Cấp quyền Commenter nếu cộng tác viên chỉ góp ý; nếu cần sửa trực tiếp thì cấp Editor cho đúng tài khoản.
+- Chế độ chia sẻ: Chọn Restricted và chỉ thêm email của cộng tác viên, không chia sẻ công khai bằng đường link.
+- Tắt chia sẻ tiếp: Bỏ chọn mục cho phép Editor thay đổi quyền truy cập và chia sẻ với người khác
